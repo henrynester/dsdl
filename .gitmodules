@@ -7,3 +7,6 @@
 [submodule "libcanard"]
 	path = libcanard
 	url = https://github.com/dronecan/libcanard
+[submodule "dronecan_dsdlc"]
+	path = dronecan_dsdlc
+	url = https://github.com/dronecan/dronecan_dsdlc.git
