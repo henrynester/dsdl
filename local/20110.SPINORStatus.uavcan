@@ -1,0 +1,22 @@
+bool armed
+
+uint7 ERROR_OK = 0
+uint7 ERROR_COMMAND_TIMEOUT = 1
+uint7 ERROR_FOC_DEADLINE_MISSED = 2
+uint7 ERROR_POS_VEL_DEADLINE_MISSED = 3
+uint7 ERROR_IABC_HIGH = 4
+uint7 ERROR_VBUS_LOW = 5
+uint7 ERROR_VBUS_HIGH = 6
+uint7 ERROR_TMTR_HIGH = 7
+uint7 ERROR_TFET_HIGH = 8
+uint7 ERROR_VEL_HIGH = 9
+uint7 ERROR_ENCODER = 10
+uint7 error
+
+float32 v_bus
+
+uint8 T_mtr
+uint8 T_fet
+
+uint8 foc_deadline_perc
+uint8 controller_cpu_perc 
