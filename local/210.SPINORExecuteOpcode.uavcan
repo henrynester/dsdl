@@ -1,0 +1,5 @@
+uint8 OPCODE_START_HOMING = 1
+uint8 OPCODE_START_ENCODER_CALIBRATION = 2
+uint8 opcode
+---
+bool can_do
