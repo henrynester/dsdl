@@ -27,3 +27,5 @@ bool homed
 uint7 foc_deadline_perc
 bool armed
 uint7 controller_cpu_perc 
+
+uint8 encoder_B_range_perc
