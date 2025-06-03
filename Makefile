@@ -6,7 +6,8 @@ all:
 
 install:
 	mkdir -p $(INSTALL_DIR)
-	ln -sf $(CURDIR)/local $(INSTALL_DIR)/local
+	rm $(INSTALL_DIR)/local
+	ln -s $(CURDIR)/local $(INSTALL_DIR)/local
 
 clean:
 	rm -rf $(DSDL_GENERATED_DIR)
